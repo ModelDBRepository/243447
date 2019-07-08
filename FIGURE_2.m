@@ -2,7 +2,7 @@ clear all
 clc 
 
 %uncomment this line if you train a new weight matrix 
-load FORCE_trained.mat N NE NI tref tm vreset vpeak td tr BIAS OMEGA EPlus EMinus BPhi1 BPhi2 BPhi E W WIN
+load force_trained.mat N NE NI tref tm vreset vpeak td tr BIAS OMEGA EPlus EMinus BPhi1 BPhi2 BPhi E W WIN
 
 %% Neuronal Parameters
 T = 10; %simulation time 

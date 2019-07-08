@@ -3,7 +3,7 @@ close all
 clc 
 
 %load trained data 
-load FORCE_trained.mat N NE NI tref tm vreset vpeak td tr BIAS OMEGA EPlus EMinus BPhi1 BPhi2 BPhi E W WIN BIAS
+load force_trained.mat N NE NI tref tm vreset vpeak td tr BIAS OMEGA EPlus EMinus BPhi1 BPhi2 BPhi E W WIN BIAS
 % Neuronal Parameters
 T = 5; %total simulation time 
 tcrit1 = 4.03; %MS Off, you might need to change this for different realizations of the simulation to minimize phase distortion error.  

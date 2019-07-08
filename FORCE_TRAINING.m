@@ -261,10 +261,10 @@ ylabel('Decoders')
     end
 
 %% save the data, this file will be about 1-2gig's (depending on what network size, much larger for O(10^3)>neurons). 
-save FORCE_trained.mat -v7.3 
+save force_trained.mat -v7.3 
 
 %% 
 clear all
 clc
-SORTING_SCRIPT
+sorting_script
 

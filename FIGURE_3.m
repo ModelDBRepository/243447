@@ -4,8 +4,7 @@ clc
 
 %load previously implemented files.  If you train a new set of weights,
 %you'll need to uncomment the next line.  
-%load FORCE_trained.mat N NE NI tref tm vreset vpeak td tr BIAS OMEGA EPlus EMinus BPhi1 BPhi2 BPhi E W WIN zx 
-load FORCE_trained_weights.mat 
+load force_trained.mat N NE NI tref tm vreset vpeak td tr BIAS OMEGA EPlus EMinus BPhi1 BPhi2 BPhi E W WIN zx 
 %% Neuronal Parameters
 T = 5;  %total simulation time 
 dt = 0.00005; %integration time step 

@@ -1,7 +1,7 @@
 clear all
 clc 
 
-load FORCE_TRAINED.mat N NE NI tref tm vreset vpeak td tr BIAS OMEGA EPlus EMinus BPhi1 BPhi2 BPhi E W WIN zx
+load force_trained.mat N NE NI tref tm vreset vpeak td tr BIAS OMEGA EPlus EMinus BPhi1 BPhi2 BPhi E W WIN zx
 load sortingid.mat ix2 ix3 
 %% Simulation parameters 
 T = 50; %total training time

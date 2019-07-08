@@ -2,7 +2,7 @@ clear all
 clc 
 
 %load trained weights, and phase sort indices
-load FORCE_trained.mat N NE NI tref tm vreset vpeak td tr BIAS OMEGA EPlus EMinus BPhi1 BPhi2 BPhi E W WIN
+load force_trained.mat N NE NI tref tm vreset vpeak td tr BIAS OMEGA EPlus EMinus BPhi1 BPhi2 BPhi E W WIN
 load sortingid.mat
 %% Simulation Parameters
 T = 20;
